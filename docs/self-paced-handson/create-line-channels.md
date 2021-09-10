@@ -1,8 +1,8 @@
-# LIFF アプリに利用するチャネルを作成する
+# LIFFアプリに利用するチャネルを作成する
 
-LIFF アプリに必要なプロバイダとチャネルを作成します。
+LIFFアプリに必要なプロバイダとチャネルを作成します。
 
-> [チャネルを作成する | LINE Developers](https://developers.line.biz/ja/docs/liff/getting-started/)
+> - [チャネルを作成する | LINE Developers](https://developers.line.biz/ja/docs/liff/getting-started/)
 
 [LINE Developersコンソール](https://developers.line.biz/console/)にログインします。アカウントの認証を促された場合は、したがって認証してください。
 
@@ -12,7 +12,7 @@ LIFF アプリに必要なプロバイダとチャネルを作成します。
 
 | チャネルの種類 | 説明 |
 |----|----|
-| LINEログイン | LIFF アプリを登録するためのチャネル |
+| LINEログイン | LIFFアプリを登録するためのチャネル |
 | Messaging API | |
 
 ## LINログインチャネルを作成する
@@ -66,5 +66,6 @@ LIFF アプリに必要なプロバイダとチャネルを作成します。
 |----|----|----|
 | LINEログイン | チャネルID | 「チャネル基本設定」タブ > 「基本設定」 > 「チャネルID」 |
 | LINEログイン | LIFF ID | 「LIFF」タブ > 作成したLIFFアプリ > 「LIFF ID」 |
+| LINEログイン | LIFF URL | 「LIFF」タブ > 作成したLIFFアプリ > 「LIFF URL」 |
 | Messaging API | チャネルID | 「チャネル基本設定」タブ > 「基本設定」 > 「チャネルID」 |
 | Messaging API | チャネルシークレット | 「チャネル基本設定」タブ > 「基本設定」 > 「チャネルシークレット」 |

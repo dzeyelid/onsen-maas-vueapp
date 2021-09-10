@@ -4,7 +4,7 @@
 
 | Azure サービス | 説明 |
 |----|----|
-| Azure Static Web App (SWA) | LINE LIFF アプリと、バックエンドAPIをホストする |
+| Azure Static Web App (SWA) | LINE LIFFアプリと、バックエンドAPIをホストする |
 | Azure Cosmos DB | 配車予約のデータを格納する |
 
 それでは、[Azure ポータル](https://portal.azure.com) を開いて、リソースを作成していきましょう。
@@ -88,7 +88,7 @@ Azure Cosmos DB は、データを格納するためのデータベースとコ�
 | | 分岐 | 対象のブランチ `main` を指定する |
 | ビルドの詳細 | ビルドのプリセット | 「Vue.js」を指定する |
 | | アプリの場所 | 変更せず |
-| | API の場所 | 変更せず |
+| | API の場所 | `api` と入力する |
 | | 出力先 | 変更せず |
 
 Azure Static Web App の作成が完了したら、「リソースに移動」ボタンなどから作成したリソースに移動します。
@@ -117,6 +117,8 @@ Azure Static Web App の作成が完了したら、「リソースに移動」�
 | 名前 | `LINE_MESSAGING_API_CHANNEL_SECRET` |
 | 値 | Messaging API チャネルの「チャネルシークレット」 |
 
-Azure Static Web App の概要ページにある URL を開いてみましょう。すると、「タクシー廃車予約」アプリがデプロイされていることが確認できます。
+Azure Static Web App の概要ページにある URL を開いてみましょう。すると、「タクシー配車予約」アプリがデプロイされていることが確認できます。
 
 ただし、この状態では LINE との接続がされていないので、正しく動作しません。引き続き作業を進めましょう。
+
+なお、この URL を次の手順で使うので、コピーしたままにするか、どこかに控えておいてください。
