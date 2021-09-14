@@ -8,9 +8,13 @@
 
 ### 事前の準備
 
-- LINE アカウント
-- GitHub アカウント
-- Microsoft Azure アカウント
+本ハンズオンを進めるにあたり、下記のアカウントをご用意ください。
+
+| 必要なアカウント | 説明 |
+|----|----|
+| LINE アカウント | [LINE Developersコンソール](https://developers.line.biz/console/)で作業ができるように、LINEアカウントまたはLINEビジネスアカウントをご用意ください。詳細は、[LINE Developersコンソールへのログイン](https://developers.line.biz/ja/docs/line-developers-console/login-account/) をご参考ください。 |
+| GitHub アカウント | リポジトリを利用するために、アカウントが必要です。これからご準備する方は、[サインアップ](https://github.com/signup) からアカウントを作成してください。 |
+| Microsoft Azure アカウント | LIFFアプリ（静的サイト）とデータベースをホストするために、Microsoft Azure を利用するので、アカウントが必要です。これからご準備する方は、[Azure の無料アカウントを今すぐ作成 \| Microsoft Azure](https://azure.microsoft.com/ja-jp/free/) より作成ください。 |
 
 ### 流れ
 
@@ -46,7 +50,7 @@ LIFFアプリ（静的サイト）に LIFF ID を伝搬させるために、ワ�
 
 - [ワークフローを更新する](./update-workflow.md)
 
-## 6. LIFFアプリのエンドポイントを更新し、動作を確認する
+## 5. LIFFアプリのエンドポイントを更新し、動作を確認する
 
 控えておいた Azure Static Web App の URL を、LIFFアプリのエンドポイントとして設定します。
 

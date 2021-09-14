@@ -81,3 +81,7 @@ LIFFアプリで各欄に入力し、「予約」ボタンから予約を行い�
 <img src="./images/line_demonstration_005.png" alt="LIFFアプリで情報を入力し、配車予約をする" width="300"> <img src="./images/line_demonstration_006.png" alt="配車予約が受け付けられたメッセージが届く" width="300">
 
 しばらくすると上図右のように「タクシー配車予約を受け付けました。」というメッセージが届けば成功です！ :tada:
+
+----
+
+[README に戻る](./#5-liffアプリのエンドポイントを更新し、動作を確認する)

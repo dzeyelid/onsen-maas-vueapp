@@ -60,3 +60,7 @@ Visual Studio Code とほぼ同様の画面が開くので、ワークフロー�
 ワークフローが正常に終了すればOKです。
 
 ![ワークフローの実行が正常に完了した](./images/github_completed-workflow.png)
+
+----
+
+[README に戻る](./#4-ワークフローを更新する)

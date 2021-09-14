@@ -13,3 +13,7 @@ GitHubにサインインした状態で、本リポジトリ [dzeyelid/onsen-maa
 ![フォーク中](./images/github_fork-repository_002.png)
 
 ![フォークが完了した](./images/github_fork-repository_003.png)
+
+----
+
+[README に戻る](./#2-githubリポジトリを準備する)

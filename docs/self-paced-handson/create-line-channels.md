@@ -133,3 +133,7 @@ LIFFアプリに必要なプロバイダとチャネルを作成します。
 
 ![Messaging APIチャネルの情報（ID）](./images/line-dev-console_messaging-api-channel_info_001.png)
 ![Messaging APIチャネルの情報（シークレット）](./images/line-dev-console_messaging-api-channel_info_002.png)
+
+----
+
+[README に戻る](./#1-liffアプリに利用するチャネルを作成する)
