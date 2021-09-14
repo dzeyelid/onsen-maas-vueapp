@@ -1,4 +1,4 @@
-# セルフハンズオン資料
+# セルフペースハンズオン資料
 
 この資料は、[【地方活性化！】MaaS Hands-On with Microsoft Azure【ミニアプリ】](https://linedevelopercommunity.connpass.com/event/220376/) で行うハンズオンの手順をまとめたものです。
 
