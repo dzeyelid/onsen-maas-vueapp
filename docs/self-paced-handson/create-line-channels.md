@@ -64,7 +64,7 @@ LIFFアプリに必要なプロバイダとチャネルを作成します。
 | LIFFアプリ名 | 任意のLIFFアプリ名を入力する（ `onsen-maas-liffapp` など） |
 | サイズ | 「Full」にチェックをつける |
 | エンドポイント | 後で差し替えるので、仮に `https://example.com` と入力しておく |
-｜ Scope | 「profile」「openid」にチェックをつける |
+| Scope | 「profile」「openid」にチェックをつける |
 | ボットリンク機能 | On (normal) を選択する |
 | オプション | 変更せず |
 

@@ -12,11 +12,17 @@ LINEログインチャネルの「LIFF」タブから、作成したLIFFアプ�
 
 ## LIFFアプリを公開する
 
-LINEログインチャネルの「LIFF」タブのままで、画面上部の「Developing」を選択し、「Publish」を選択します。
+LINEログインチャネルのままで、画面上部の「非公開」を選択し、表示されたダイアログを確認し「公開」を選択します。
+
+![LINEログインチャネルで、非公開を選択する](./images/line-dev-console_publich-line-login-channel_001.png)
+
+![ダイアログを確認し「公開」を選択する](./images/line-dev-console_publich-line-login-channel_002.png)
+
+![LINEログインチャネルが公開になった](./images/line-dev-console_publich-line-login-channel_003.png)
 
 ## リッチメニューに LIFFアプリを設定する
 
-Messaging APIチャネルの「チャネル基本設定」から、「LINE Official Account Manager」を開きます。
+つぎにMessaging APIチャネルを開き、「チャネル基本設定」タブから、「LINE Official Account Manager」を開きます。
 
 ![Messaging APIチャネルの「チャネル基本設定」から「LINE Official Account Manager」を開く](./images/line-dev-console_basic-settings_open-account-manager.png)
 
@@ -72,15 +78,17 @@ Messageing APIチャネルの「Messaging API設定」タブを開き、QRコー
 
 <img src="./images/line_demonstration_001.png" alt="作成した Messaging API チャネルをフレンド登録する" width="300"> <img src="./images/line_demonstration_002.png" alt="フレンド登録時の応答メッセージが届く" width="300">
 
-チャットを開くと先ほど作成したリッチメニューが表示され、「配車」をタップするとLIFFアプリが立ち上がります。
+チャットを開くと先ほど作成したリッチメニューが表示され、「配車」をタップします。初回はアクセス許可の確認を求められるので、確認し「Allow（許可）」を選択します。
 
-<img src="./images/line_demonstration_003.png" alt="先ほど作成したリッチメニューが表示されている" width="300"> <img src="./images/line_demonstration_004.png" alt="リッチメニューの「配車」をタップするとLIFFアプリが立ち上がる" width="300">
+<img src="./images/line_demonstration_003.png" alt="先ほど作成したリッチメニューが表示されている" width="300"> <img src="./images/line_demonstration_004.png" alt="初回はアクセス許可を求められるので許可する" width="300">
 
-LIFFアプリで各欄に入力し、「予約」ボタンから予約を行います。
+LIFFアプリが起動したら、各欄に入力し、「予約」ボタンから予約を行います。
 
-<img src="./images/line_demonstration_005.png" alt="LIFFアプリで情報を入力し、配車予約をする" width="300"> <img src="./images/line_demonstration_006.png" alt="配車予約が受け付けられたメッセージが届く" width="300">
+<img src="./images/line_demonstration_005.png" alt="起動したLIFFアプリ" width="300"> <img src="./images/line_demonstration_006.png" alt="LIFFアプリで情報を入力し、配車予約をする" width="300">
 
-しばらくすると上図右のように「タクシー配車予約を受け付けました。」というメッセージが届けば成功です！ :tada:
+しばらくすると下図のように「タクシー配車予約を受け付けました。」というメッセージが届けば成功です！ :tada:
+
+<img src="./images/line_demonstration_007.png" alt="配車予約が受け付けられたメッセージが届く" width="300">
 
 ----
 

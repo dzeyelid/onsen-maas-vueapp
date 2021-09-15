@@ -28,9 +28,13 @@ GitHub Actions のワークフローは、yml ファイルで定義し、`.githu
 
 つぎに、ワークフローファイルを更新します。
 
-編集方法は幾通りもありますが、ここでは、リポジトリをブラウザで開いた状態で `.` キーを押下し、 GitHub Dev のエディタを開いて編集してみます。
+編集方法は幾通りもありますが、ここでは、ブラウザ上で Visual Studio Code とほぼ同等のエディタを利用できる GitHub Web-based editor を利用してみましょう。
 
-Visual Studio Code とほぼ同様の画面が開くので、ワークフローファイル `.github/workflows/azure-static-web-apps-<RANDOM_NAME>.yml` を開き、下記のように `uses: Azure/static-web-apps-deploy@v1` の下に `env` の設定を追加します。
+> - [Web-based editor - GitHub Docs](https://docs.github.com/ja/codespaces/developing-in-codespaces/web-based-editor)
+
+ブラウザでリポジトリトップに戻り `.` キーを押下し、エディタを開きます。
+
+エディタが開いたら、ワークフローファイル `.github/workflows/azure-static-web-apps-<RANDOM_NAME>.yml` を開き、下記のように `uses: Azure/static-web-apps-deploy@v1` の下に `env` の設定を追加します。
 
 ```yml
       - name: Build And Deploy
